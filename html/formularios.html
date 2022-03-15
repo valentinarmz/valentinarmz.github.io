@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios en HTML</title>
+<link href="../css/estilotabla.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/yeseva-one:n4:default;poiret-one:n4:default;satisfy:n4:default;didact-gothic:n4:default;sansita-one:n4:default.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<header>
+  <h1>Formularios en HTML&nbsp;</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Inicio</a>&nbsp;</li>
+    <li><a href="estilodetexto.html">Estilos de texto</a>&nbsp;</li>
+    <li><a href="Enlaces.html">Enlaces</a>&nbsp;</li>
+    <li><a href="Listas.html">Listas</a>&nbsp;</li>
+    <li><a href="tabla.html">Tablas</a>&nbsp;</li>
+    <li><a href="imagenes.html">Imágenes</a>&nbsp;</li>
+    <li><a href="audio.html">Audio</a>&nbsp;</li>
+    <li><a href="video.html">Video</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario de ingreso o autentificación&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam nemo sapiente architecto nisi, quis voluptatem eligendi quaerat mollitia ipsa cum atque recusandae reprehenderit officia rem fuga saepe modi natus voluptas pariatur nam, alias magnam. Ipsa, ipsum fugiat harum, quae illo, quaerat nisi repellendus eligendi ut, ducimus inventore sapiente culpa.</p>
+	<form action="procesamiento.html" method="get">
+	  <label>Usuario:</label>
+		<input type="text" id="usuario" name="usuario">
+	  <label>Contraseña:</label>
+		<input type="password" id="contraseña" name="contraseña">
+		<input type="submit" class="enviar" value="Enviar">
+	  </form>
+ </section>
+	
+  <section>
+    <h2>Formulario entrevista</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam nemo sapiente architecto nisi, quis voluptatem eligendi quaerat mollitia ipsa cum atque recusandae reprehenderit officia rem fuga saepe modi natus voluptas pariatur nam, alias magnam. Ipsa, ipsum fugiat harum, quae illo, quaerat nisi repellendus eligendi ut, ducimus inventore sapiente culpa.</p>
+    <form method="post" name="form1" class="form" id="form1">
+      <h3>Encuesta</h3>
+<label for="number">Edad:</label>
+      <input name="number" type="number" id="number" max="50" min="18">
+<p>
+        <label>¿Cuál es tu género?&nbsp;</label>
+		  <br>
+        <label>
+          <input type="radio" name="G&eacute;nero" value="femenino" id="Geacutenero_0">
+          Femenino</label>
+        <br>
+        <label>
+          <input type="radio" name="G&eacute;nero" value="masculino" id="Geacutenero_1">
+          Masculino</label>
+        <br>
+      </p>
+      <label for="select">
+    Select:</label>
+      <select name="select" id="select">
+        <option>México</option>
+        <option>España</option>
+        <option>Argentina</option>
+        <option>Chile</option>
+        <option>Italia</option>
+      </select>
+		<br>
+      <label>¿Qué género de música es tu preferido?&nbsp;</label>
+<table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Música" value="rock" id="Muacutesica_0">
+            Rock</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Música" value="jazz" id="Muacutesica_1">
+            Jazz</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Música" value="blues" id="Muacutesica_2">
+            Blues</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Música" value="pop" id="Muacutesica_3">
+            Pop</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Música" value="indie" id="Muacutesica_4">
+            Indie</label></td>
+        </tr>
+      </table>
+<br>
+      <input name="submit" type="submit" id="submit" form formaction="procesamiento.html" formmethod="GET" value="Enviar">
+      
+    </form>
+  </section>
+	
+  <section>
+    <h2>Formulario de comentarios&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam nemo sapiente architecto nisi, quis voluptatem eligendi quaerat mollitia ipsa cum atque recusandae reprehenderit officia rem fuga saepe modi natus voluptas pariatur nam, alias magnam. Ipsa, ipsum fugiat harum, quae illo, quaerat nisi repellendus eligendi ut, ducimus inventore sapiente culpa.</p>
+    <form id="form2" name="form2" method="post">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+		<br>
+		<br>
+      <label for="textarea">Comentario:</label>
+      <textarea name="textarea" cols="20" rows="5" maxlength="50" id="textarea">Escribe tu comentario aquí...</textarea>
+      
+    </form>
+    <input name="submit2" type="submit" formaction="procesamiento.html" formmethod="GET" value="Enviar">
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam nemo sapiente architecto nisi, quis voluptatem eligendi quaerat mollitia ipsa cum atque recusandae reprehenderit officia rem fuga saepe modi natus voluptas pariatur nam, alias magnam. Ipsa, ipsum fugiat harum, quae illo, quaerat nisi repellendus eligendi ut, ducimus inventore sapiente culpa.</p>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Valentina Ramírez</h6>
+</footer>
+</body>
+</html>

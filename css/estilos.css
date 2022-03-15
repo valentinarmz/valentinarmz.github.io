@@ -1,0 +1,78 @@
+/* CSS Document */
+
+	
+.H2 {
+	text-align: center;
+	color: #F8CDE3;
+	background-color: #D67371;
+	margin: 20;
+	padding-top: px;
+}
+.P {
+	background-color: #F8CDE0;
+	color: #000000;
+	padding: 10PX;
+	border-style: dashed;
+	margin: 30px;
+	border-color: #D67371;
+}
+.MAIN {
+	background-color: #F8CDE0;
+	width: 100%;
+}
+.SECTION {
+	background-color: #A989ED;
+	margin: 30px;
+	width: 85%;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+}
+.NAV {
+	background-color: #A989ED;
+	color: #F8CDE0;
+	width: 100%;
+}
+.FOOTER {
+	background-color: #A989ED;
+	color: #F8CDE0;
+	width: 85%;
+	height: 40px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}.imagen_1 {
+	width: 25%;
+	padding: 5px;
+	height: 25%;
+}
+#filtergray {
+	filter: grayscale(100%);
+}
+#filterblur {
+	filter: blur(3px);
+}
+#filterbrillo {
+	filter: brightness(50%);
+}
+#filtercontrast {
+	filter: contrast(20%);
+}
+#filteropacidad {
+	filter: opacity(70%);
+}
+#filtersaturacion {
+	filter: saturate(40%);
+}
+#filtersepia {
+	filter: sepia(100%);
+}
+.HEADER {
+	padding: 5PX;
+	width: 100%;
+	text-align: center;
+	background-color: #330C6A;
+	color: #F8CDE0;
+}
